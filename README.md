@@ -26,6 +26,19 @@
 |---|---|
 | ![Экран подключения](docs/screenshots/client-connect.png) | ![Чат](docs/screenshots/client-chat.png) |
 
+## Готовые сборки
+
+Для Windows x64 можно не собирать проект: скачайте архив `Chat-win-x64.zip`
+со страницы [Releases](https://github.com/losty4k/tcp-client-server/releases/latest).
+
+Внутри:
+
+- `server/ChatServer.Gui.exe` — сервер;
+- `client/ChatClient.Gui.exe` — клиент.
+
+Сборка self-contained: .NET устанавливать не нужно. Запустите сервер,
+затем одну или несколько копий клиента.
+
 ## Требования
 
 - .NET SDK 10.0 (проект собран под `net10.0`)
